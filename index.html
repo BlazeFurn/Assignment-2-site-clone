@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthKart - India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://www.healthkart.com/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://static1.hkrtcdn.com/hknext/static/media/common/hk.png"
+                    alt="">
+            </div>
+            <form action="">
+                <a><i class="fa fa-search" id="searchIcon" aria-hidden="true"></i></a>
+                <input type="text" id="search" placeholder="Search for products, brands or Health Goals">
+            </form>
+            <div class="oneItem margin">
+                <p id="hover"> <p id="wishclr"><a id="hover" href="/wishlist.html">Wishlist</a></p></p>
+            </div>
+            <p class="borderLine"></p>
+            <div class="twoItem margin">
+                <p id="hover">Customer Support</p>
+                <i class="fa fa-chevron-down arrow"></i>
+            </div>
+            <p class="borderLine"></p>
+
+            <div class="threeItem margin">
+                <div class="userBox">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <p id="hover">My Account & Orders</p>
+                    <i class="fa fa-chevron-down arrow"></i>
+                </div>
+                <div class="userLogin">
+                    <button id="loginBtn"><a href="login.html">Login</a></button>
+                    <button id="signUp"><a id="a" href="signup.html">New User?/ Sign Up</a></button>
+                </div>
+            </div>
+            <p class="borderLine"></p>
+            <div id="cartClick">
+                <a href="cart.html">
+                    <img src="https://img2.hkrtcdn.com/react/static/media/common/header/cart.svg" alt="" id="cartItem">
+                    <p id="cartOnNum"></p>
+                </a>
+                
+                <div class="cartAdd">
+                    <button onclick="cartBtn()" id="cart"><a href="cart.html" >Items in cart</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearDiv"></div>
+
+
+
+    <div id="categories">
+        <div class="container">
+            <ul id="catLinks">
+                <li>
+                    <a href="#">Category</a>
+                    <ul class="dropdown">
+                        <li id="li"><a href="sports-nutrition.html">Sports Nutrition</a></li>
+                        <li id="li">Vitamins & Supplements</li>
+                        <li id="li">Ayurveda & Herbs</li>
+                        <li id="li">Health Food & Drinks</li>
+                        <li id="li">Fitness</li>
+                        <li id="li">Wellness</li>
+                        <li id="li">Service Program</li>
+                    </ul>
+                </li>
+                <li>Brand</li>
+                <li>Gender</li>
+                <li>Goal</li>
+                <li>Bestsellers</li>
+                <li>Deals</li>
+                <li>Gift Cart</li>
+                <li>Blog, Videos & More</li>
+            </ul>
+            <div class="rightPart">
+                <div class="consult">
+                    <i class="fa fa-video-camera"></i>
+                    <p>Hk Consult</p>
+                </div>
+                <div class="findStore">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Find a Store</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carousel">
+
+        <img name='silde'>
+    </div>
+
+<div id="banner">
+    <img src="https://img8.hkrtcdn.com/35834/bnr_3583377_o.jpg" alt="HealthKart Banner" style="width:100%; height:auto;">
+</div>
+
+    <div>
+        <h1 class="h1">Deal of the day</h1>
+        <div id="grid">
+            <div id="grid_box">
+                <h3>Sports <br> Nutrition</h3>
+                <img src="https://img10.hkrtcdn.com/6544/bnr_654359_o.png" />
+                <a href="sports-nutrition.html"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>Vitamins & <br> Supplements</h3>
+                <img src="https://img4.hkrtcdn.com/6543/bnr_654233_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>Ayurveda & <br> Herbs</h3>
+                <img src="https://img2.hkrtcdn.com/6544/bnr_654351_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3> Health Food <br>& Drinks</h3>
+                <img src="https://img8.hkrtcdn.com/4044/bnr_404387_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>weight Loss</h3>
+                <img src="https://img6.hkrtcdn.com/6542/bnr_654165_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>Wellness</h3>
+                <img src="https://img4.hkrtcdn.com/6544/bnr_654353_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>Immunity & <br> Wellbeing</h3>
+                <img src="https://img4.hkrtcdn.com/6543/bnr_654213_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+            <div id="grid_box">
+                <h3>Fitness</h3>
+                <img src="https://img6.hkrtcdn.com/3802/bnr_380125_o.png" />
+                <a href="#"> View all →</a>
+            </div>
+        </div>
+
+        <div>
+            <div id="footer1">
+
+                <div>
+                    <h5>HEALTHKART</h5>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Refer & Earn</p>
+                    <p>Loyalty Program</p>
+                    <p>HK Consult</p>
+                    <p>Blogs, Videos & More</p>
+                    <p>Brand Directory</p>
+                    <p>Authenticity Guaranteed</p>
+                    <p>Careers</p>
+                </div>
+                <div>
+                    <h5>BRANDS</h5>
+                    <p>MuscleBlaze</p>
+                    <p>TrueBasics</p>
+                    <p>JustHer</p>
+                    <p>Nouriza</p>
+                    <p>Gritzo</p>
+                    <p>bGREEN</p>
+                </div>
+                <div>
+                    <h5>HEALTH & FITNESS</h5>
+                    <p>Bodybuilding</p>
+                    <p>Weight Loss</p>
+                    <p>Hair & Skin Care</p>
+                    <p>Sports Nutrition</p>
+                    <p>Vitamins & Supplements</p>
+                    <p>Ayurveda & Herbs</p>
+                    <p>Health Food & Drinks</p>
+                    <p>Fitness</p>
+                    <p>Wellness</p>
+                    <p>Consult Plans</p>
+                </div>
+                <div>
+                    <h5>POLICIES</h5>
+                    <p>Terms & Conditions</p>
+                    <p>Delivery Policy</p>
+                    <p>Privacy Policy</p>
+                    <p>Returns Policy</p>
+                </div>
+                <div>
+                    <h5>QUICK LINKS</h5>
+                    <p>My Account</p>
+                    <p>Track Your Order</p>
+                    <p>Store Locator</p>
+                    <p>HK Cash</p>
+                    <p>HK Coupons</p>
+                    <p>FAQs</p>
+                    <p>Sell On HealthKart</p>
+                </div>
+
+                <div>
+                    <h5>ABOUT HEALTHKART</h5>
+                    <p>HealthKart.com is India’s largest online health & fitness store for men and women. Shop online
+                        from the
+                        latest collections of health, fitness and similar products featuring the best brands.</p>
+                    <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                    <p>Be the first one to receive amazing offers, deals and news</p>
+                    <dv></dv>
+
+                    <h5>CONNECT WITH US</h5>
+                    <div class="contact">
+                        <img src="https://img2.hkrtcdn.com/react/static/media/common/footer/facebook.svg" />
+                        <img src="https://img2.hkrtcdn.com/react/static/media/common/footer/instagram.svg" />
+                        <img src="https://img2.hkrtcdn.com/react/static/media/common/footer/twitter.svg" />
+                        <img src="https://img2.hkrtcdn.com/react/static/media/common/footer/youtube.svg" />
+                        <img src="https://img2.hkrtcdn.com/react/static/media/common/footer/pinterest.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
